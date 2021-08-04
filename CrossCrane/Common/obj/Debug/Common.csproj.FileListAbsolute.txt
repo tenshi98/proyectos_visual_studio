@@ -1,0 +1,5 @@
+F:\APP_Projects\CrossCrane\Common\bin\Debug\Common.dll
+F:\APP_Projects\CrossCrane\Common\bin\Debug\Common.pdb
+F:\APP_Projects\CrossCrane\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+F:\APP_Projects\CrossCrane\Common\obj\Debug\Common.dll
+F:\APP_Projects\CrossCrane\Common\obj\Debug\Common.pdb
