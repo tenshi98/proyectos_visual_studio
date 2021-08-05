@@ -13,8 +13,8 @@ namespace Common.Cache
             List<ServidorObject> data = new List<ServidorObject>();
             data.Add(new ServidorObject { NombreServidor = "Seleccione un Servidor" });
             data.Add(new ServidorObject { NombreServidor = "localhost" });
-            data.Add(new ServidorObject { NombreServidor = "agropraxis.cl" });
-            data.Add(new ServidorObject { NombreServidor = "crosstech.cl" });
+            data.Add(new ServidorObject { NombreServidor = "example1.cl" });
+            data.Add(new ServidorObject { NombreServidor = "example2.cl" });
 
             return data;
         }

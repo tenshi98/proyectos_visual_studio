@@ -14,11 +14,11 @@ namespace DataAccess.DB_Conection
         public ConnectionToMySql()
         {
             //localhost
-            connectionString_1 = "Server=localhost; Database=power_engine_main; User=root; port=3306; password=;";
-            //agropraxis.cl
-            connectionString_2 = "Server=crosstech.cl; Database=crosstech_pe_agropraxis; User=crosstech_admin; port=3306; password=&-VSda,#rFvT;";
-            //crosstech.cl
-            connectionString_3 = "Server=crosstech.cl; Database=crosstech_pe_clientes; User=crosstech_admin; port=3306; password=&-VSda,#rFvT;";
+            connectionString_1 = "Server=localhost; Database=Database; User=root; port=3306; password=;";
+            //example1.cl
+            connectionString_2 = "Server=example1.cl; Database=Database; User=root; port=3306; password=;";
+            //example2.cl
+            connectionString_3 = "Server=example2.cl; Database=Database; User=root; port=3306; password=;";
         }
         protected MySqlConnection GetConnection(string server)
         {
@@ -28,10 +28,10 @@ namespace DataAccess.DB_Conection
                 case "localhost":
                     connectionString = connectionString_1;
                     break;
-                case "agropraxis.cl":
+                case "example1.cl":
                     connectionString = connectionString_2;
                     break;
-                case "crosstech.cl":
+                case "example2.cl":
                     connectionString = connectionString_3;
                     break;
             }
