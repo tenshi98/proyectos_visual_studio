@@ -1,9 +1,8 @@
-# Proyectos Visual Studio
-Conjunto de proyectos hechos en la plataforma de Visual Studio
+# APP CrossCrane
+Aplicación de escritorio diseñada para mostrar el estado de las grúas plumas de la plataforma gestión modular.
 
 ## Uso 🚀
-Copiar el proyecto deseado, luego importarlo al editor y por ultimo compilarlo para hacer pruebas.
-Revisar el proyecto y copiar todo el código que encuentren util.
+No hay forma de hacerlo funcionar, necesita por obligación un usuario válido y activo de la plataforma para obtener los datos de los equipos de telemetría.
 
 ## Licencia 📄
 Este proyecto está bajo la Licencia GPL-3.0 license - ve el archivo [LICENSE](LICENSE) para detalles
